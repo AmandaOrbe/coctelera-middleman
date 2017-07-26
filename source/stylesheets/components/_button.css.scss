@@ -1,0 +1,63 @@
+
+
+.btn-big{
+  font-size: 36;
+  padding: 20px 25;
+}
+
+.btn-transp:hover{
+  opacity: 1;
+  background-color: #CEAF46;
+  border-color: #CEAF46;
+  transition: background-color 0.3s ease;
+}
+
+.btn-banner2{
+  font-family: 'Righteous', cursive;
+  background-color: $gold;
+  font-weight: 400;
+  font-size: 24 !important;
+  text-decoration: none;
+  color: white;
+  padding: 25px 40px !important;
+  border-radius:4px;
+  opacity: 1;
+  border:none !important;
+  &:hover{
+    background-color: $dark-gold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+}
+
+
+
+// .btn-banner-mobile{
+//   font-family: 'Righteous', cursive;
+//   background-color: #EBB75A;
+//   font-weight: 400;
+//   font-size: 20;
+//   text-decoration: none;
+//   color: white;
+//   padding: 20px 35;
+//   border-radius:4px;
+//   opacity: 1;
+// }
+
+// .btn-banner-mobile:hover{
+//  background-color: #EDB056;
+//  border-color: #EDB056;
+//  transition: background-color 0.3s ease;
+// }
+
+
+// .btn-small{
+//   font-size: 18;
+//   padding: 15px 20;
+
+// }
+
+
+
+

@@ -1,16 +1,22 @@
-    <div class="navbar-desktop only-desktop">
+    <div class="navbar1 ">
       <div class="logo">
       <%= link_to "LA COCTELERA", "index.html"%>
       </div>
-      <div>
-        <ul class="list-inline">
-          <%= link_to "HOME", "index.html"  %>
-          <%= link_to "BARMEN", "/barmen.html"  %>
-          <%= link_to "COCTELES", "/cocteles.html"  %>
-        </ul>
-      </div>
-      <div class="btn-navbar">
+      <ul class="list-inline links-list">
+        <%= link_to "HOME", "index.html"  %>
+        <%= link_to "BARMEN", "/barmen.html"  %>
+        <%= link_to "COCTELES", "/cocteles.html"  %>
+      </ul>
+      <div class="btn-minuscules">
           <%= link_to "reserva ahora", "form.html"  %>
+      </div>
+      <div class="bars">
+        <i class="fa fa-bars dropdown-toggle" id="menu-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></i>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="menu-dropdown">
+          <li><a href="home.html"><b>HOME</b></a></li>
+          <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+          <li><a href="cocteles.html">NUESTROS COCTELES</a></li>
+        </ul>
       </div>
     </div>
 

@@ -1,18 +1,74 @@
-// .navbar-desktop{
-//   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-//   background: #A3D5D5;
+
+
+.navbar1{
+   background: $blue;
 //   transition: all 0.3s ease;
-//   display: flex;
-//   height: 40px;
-//   align-items: center;
-//   justify-content: space-between;
-//   position: fixed; /* Set the navbar to fixed position */
-//   top: 0; /* Position the navbar at the top of the page */
-//   width: 100%; /* Full width */
-//   z-index:1;
-//   box-shadow: none;
-//   padding:15px;
+  display: flex;
+  height: 80px;
+  align-items: baseline;
+  justify-content: space-between;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+   z-index:1;
+   box-shadow: none;
+   padding-top: 30px;
+   padding: 40px 15px;
+ }
+
+.logo {
+  a{
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-size:22px;
+  }
+}
+
+.list-inline{
+    a{
+    color:white;
+    text-decoration:none;
+    margin: 0 30px;
+    font-size: 22px;
+    font-weight: 200;
+
+   }
+  }
+
+.btn-minuscules {
+  a{
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  letter-spacing:1px;
+  color: white;
+    &:hover{
+   color:black;
+   text-decoration:none;
+   transition: all 0.3s ease;
+  }
+ }
+}
+
+.bars{
+  padding-right: 20px;
+  color:white;
+}
+
+@media (max-width: 800px) {
+  .btn-minuscules, .links-list{
+    display:none;
+  }
+}
+
+@media (min-width: 800px) {
+  .bars{
+    display:none;
+  }
+}
+// .btn-minuscul:hover{
+//   color:white;
 // }
+
 
 
 // .navbar-desktop a{

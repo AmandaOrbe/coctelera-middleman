@@ -2,10 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
-
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,400,500i|Righteous");
+$base-font: 'Raleway', "Helvetica", "sans-serif";
+$header-font: 'Righteous', cursive;
 // Local fonts (uncomment following lines)
 // @font-face {
 //   font-family: "Font Name";
@@ -26,8 +25,10 @@ $base-height: 1.4;
 // Scheme
 $brand-color: #D23333;
 
-$red: #EE5F5B;
-$blue: #469AE0;
+$red: red;
+$gold: #EBB75A;
+$blue: #A3D5D5;
+$dark-gold: #EDB056;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
@@ -35,6 +36,51 @@ $green: #32B796;
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
 $gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
-$gray-light:   lighten(#000, 46.7%); // #777
+$gray-light:    #B3B3B3;
+$gray:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 60px;
+  color:black;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+  letter-spacing: 1px;
+
+  color:black;
+}
+
+h3 {
+  font-family: 'Raleway', "Helvetica", "sans-serif" !important;
+  font-weight: 100 !important;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color:#EBB75A;
+}
+h4{
+   font-weight: 500;
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color:#EBB75A;
+}
+
+h5{
+  font-weight: 100;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color:black;
+}
+
+p {
+  font-weight: 100;
+  font-size: 16;
+  letter-spacing: 1px;
+ }
