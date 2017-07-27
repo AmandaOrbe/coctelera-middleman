@@ -10,15 +10,7 @@
   // text-align: center;
   position: relative;
   top: 5vh;
-  .banner1-desktop h1{
-  font-size:72px;
-  }
-  .banner1-desktop h3{
-  color:white;
-  }
 }
-
-
 
 .banner1-desktop-content{
   position: absolute;
@@ -36,8 +28,18 @@
  }
 
 
+@media (max-width: 720px) {
+.banner1-desktop{
+    display:none;
+  }
 
+}
 
+@media (min-width: 720px) {
+  .banner1-mobile{
+    display:none;
+  }
+}
 
 
 

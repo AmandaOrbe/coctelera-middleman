@@ -2,20 +2,65 @@
 title: La coctelera
 ---
 
+<%= partial "banner1" %>
 
-    <div class="banner1-desktop" style="background-image: url('images/background.png');">
+<div class="wrapper ">
+  <div class="container1">
+      <h4>Ser barman no sólo consiste en servir cócteles</h3>
+      <p>En La Coctelera de Formentera sabemos lo importante que es un buen servicio para realizar los mejores eventos.  Sabemos que es crucial preparar las mejores bebidas en un tiempo record, con una buena presentación y el mejor sabor, pero también contribuir al momento de felicidad compartida y crear un ambiente que sus invitados recordarán para siempre.</p>
+  </div>
+</div>
 
-    <%= image_tag "images/banner-table.png", class: "fruta"%>
-      <div class="banner1-desktop-content">
+<%= partial "banner2" %>
+<div class="wrapper">
+  <div class="container2 ">
+    <%data.services.each do |service| %>
+    <div class="col-xs-12 col-sm-4">
+      <div class="service-card">
+        <%= image_tag service[1].picture,  class: "event" %>
+          <h4><%= service[1].name %></h4>
+          <p><%= service[1].description %> </p>
+        </div>
+      </div>
+    <% end %>
+    <div class="btn-center">
+      <%= link_to "RESERVA AHORA", "form.html" , class: "btn-banner2 " %>
+    </div>
+  </div>
+</div>
 
-            <h1>La COCTELERA
-            <br>
-                  de Formentera</h1>
-            <h3>Lleva el sabor de los
-            <br>mejores cócteles a tu fiesta</h3>
-            <br>
-            <br>
-            <%= link_to "RESERVA AHORA", "form.html" , class: "btn-banner2" %>
+<%= partial "banner3" %>
+
+<div class="wrapper">
+  <div class="container2">
+    <div class="compromiso-card">
+      <%= image_tag "images/quality.png", class: "img-col img-center "%>
+      <div class="text-col col-left">
+        <h4>Compromiso de Calidad:</h4>
+        <p>Nuestros expertos mixólogos utilizan siempre las mejores marcas de licor y los ingredientes más frescos del mercado para obtener la bebida perfecta.</p>
+      </div>
+      <%= image_tag "images/quality.png", class: "img-col col-right "%>
+    </div>
+    <div class="compromiso-card">
+      <%= image_tag "images/smile.png", class: "img-col img-center"%>
+      <%= image_tag "images/smile.png", class: "img-col col-left"%>
+      <div class="text-col col-right">
+        <h4>Compromiso de Felicidad:</h4>
+        <p>Somos muy exigentes con la selección de nuestros cocteleros.  Todos tienen experiencia internacional y formación específica. Estamos 100% comprometidos con la calidad del servicio. .</p>
       </div>
     </div>
+    <div class="compromiso-card">
+      <%= image_tag "images/quality.png", class: "img-col img-center"%>
+      <div class="text-col col-left">
+        <h4>Compromiso de Calidad:</h4>
+        <p>Nuestros expertos mixólogos utilizan siempre las mejores marcas de licor y los ingredientes más frescos del mercado para obtener la bebida perfecta.</p>
+      </div>
+      <%= image_tag "images/quality.png", class: "img-col col-right"%>
+    </div>
+    <div class="btn-center">
+    <%= link_to "RESERVA AHORA", "form.html" , class: "btn-banner2 " %>
+    </div>
+  </div>
+</div>
+
 

@@ -1,0 +1,45 @@
+.banner2{
+  background-color: #A3D5D5;
+  background-size: cover;
+  color: white;
+  // height: 50vh;
+  min-height: 300px;
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+  text-align: center;
+  position: relative;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.chica{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.banner2-content{
+  position: absolute;
+  right: 50px;
+  top: 20%;
+  left: 5%;
+  width: 60%;
+  text-align:left;
+  p{
+    color: black;
+  }
+}
+
+
+
+@media (max-width: 720px) {
+ .banner2{
+  height:60vh;
+  }
+  .banner2-content{
+  width: 80%;
+  top:10%;
+  }
+}

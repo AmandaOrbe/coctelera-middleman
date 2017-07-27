@@ -1,0 +1,15 @@
+-eventos:
+  name: eventos
+  picture: eventos.png
+  description: Grande o pequeño nos desplazamos a cualquier punto de la isla para hacer de su evento algo memorable.
+
+-barcos:
+  name: barcos
+  picture: barco.png
+  description: También prestamos el servicio en yates.
+
+
+-taller:
+  name: taller de cócteles
+  picture: cocteltaller.png
+  description: Pasa un buen rato entre amigos y aprende a realizar (y a degustar!) tus cócteles favoritos.

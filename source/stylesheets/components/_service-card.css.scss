@@ -1,0 +1,91 @@
+.service-card{
+  text-align: center;
+  width: 250px;
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  padding:25px;
+}
+.event{
+  height: 150px;
+  width: auto;
+}
+.text-col{
+  width: 60%;
+  position: absolute;
+
+
+}
+.img-col{
+ height:auto;
+ width: 25%;
+ margin-top:30px;
+}
+.col-left{
+  position: absolute;
+  left: 30px;
+  text-align:left;
+}
+.col-right{
+  position: absolute;
+  right: 30px;
+  text-align:right;
+
+}
+.img-center{
+  margin:0 auto;
+}
+
+.compromiso-card{
+  width: 60%;
+  height:200px;
+  position: relative;
+  margin:30px auto;
+}
+
+@media (max-width: 720px) {
+  .service-card{
+    margin-top:10px;
+  }
+  .img-col{
+    display:none;
+  }
+  .text-col{
+    text-align: center;
+    width:100%;
+  }
+  .col-left, .col-right{
+    right:0;
+    left:0;
+  }
+  .img-center{
+    display:block;
+  }
+  .compromiso-card{
+    height:300px;
+  }
+}
+
+@media (min-width: 720px) {
+  .img-center{
+    display:none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

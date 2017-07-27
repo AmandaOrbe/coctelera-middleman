@@ -28,7 +28,7 @@
     a{
     color:white;
     text-decoration:none;
-    margin: 0 30px;
+    margin: 0 18px;
     font-size: 22px;
     font-weight: 200;
 
@@ -54,13 +54,30 @@
   color:white;
 }
 
-@media (max-width: 800px) {
+.dropdown-menu{
+  width: 50%;
+  height: 90vh;
+  background-color: #a3d5d5;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 5.4;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+@media (max-width: 720px) {
   .btn-minuscules, .links-list{
     display:none;
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 720px) {
   .bars{
     display:none;
   }

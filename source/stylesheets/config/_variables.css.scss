@@ -41,11 +41,12 @@ $gray:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
 
 
+
+
 h1 {
   font-family: 'Righteous', cursive;
   font-weight: 100;
   letter-spacing: 1px;
-  font-size: 60px;
   color:black;
 }
 
@@ -53,34 +54,30 @@ h2 {
   font-family: 'Righteous', cursive;
   font-weight: 100;
   letter-spacing: 1px;
-
   color:black;
 }
 
 h3 {
   font-family: 'Raleway', "Helvetica", "sans-serif" !important;
   font-weight: 100 !important;
-  font-size: 32px;
   letter-spacing: 1px;
-  color:#EBB75A;
 }
 h4{
-   font-weight: 500;
+  font-family: 'Raleway', "Helvetica", "sans-serif" !important;
+  font-weight: 500;
   font-style: italic;
-  font-size: 24px;
   letter-spacing: 1px;
-  color:#EBB75A;
+  color:$dark-gold !important;
 }
 
 h5{
   font-weight: 100;
-  font-size: 24px;
   letter-spacing: 1px;
   color:black;
 }
 
 p {
   font-weight: 100;
-  font-size: 16;
   letter-spacing: 1px;
  }
+
