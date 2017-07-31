@@ -1,0 +1,20 @@
+-caipirinha:
+  name: caipirinha
+  photo: caipi.png
+
+-maitai:
+  name: mai tai
+  photo: maitai.png
+
+-french75:
+  name: french 75
+  photo: french75.png
+
+-margarita:
+  name: margarita
+  photo: margarita.png
+
+palomas:
+  name: paloma
+  photo: paloma.png
+

@@ -23,6 +23,12 @@
   position: absolute;
   left: 0;
   top: 0;
-  height: 60%;
+  width: 70%;
 
+}
+
+@media (max-width: 720px) {
+  .flags{
+    width:90%;
+  }
 }

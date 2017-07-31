@@ -1,8 +1,22 @@
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h1>cocteles</h1>
+<div class="wrapper">
+  <div class="container3">
+    <h3>COCTELES</h3>
+      <div class="row">
+        <%data.cocteles.each do |coctel| %>
+          <div class="col-xs-12 col-sm-4">
+            <div class="coctel-card">
+              <div class="thumbnail-container">
+                <%= image_tag coctel[1].photo,  class: "thumbnail" %>
+                <div class="coctel-name">
+                  <p><%= coctel[1].name.upcase %></p >
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <div class="btn-center">
+    <%= link_to "RESERVA AHORA", "form.html" , class: "btn-banner2 " %>
+    </div>
+  </div>
+</div>

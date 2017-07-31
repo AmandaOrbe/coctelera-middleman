@@ -32,9 +32,25 @@
 }
 
 .btn-center{
-  margin:0 auto;
+     margin: 50px auto;
+    text-align: center;
 }
 
+.btn-form{
+  font-family: 'Righteous', cursive;
+    background-color: #EBB75A;
+    font-weight: 400;
+    font-size: 24 !important;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px !important;
+    border-radius: 4px;
+    opacity: 1;
+    border: none !important;
+    width: 80%;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
 
 // .btn-banner-mobile{
 //   font-family: 'Righteous', cursive;

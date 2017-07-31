@@ -1,0 +1,36 @@
+.coctel-card{
+  background-color: white;
+  height: 230px;
+  width: 210px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px #B3B3B3;
+  position: relative;
+  margin:30px auto ;
+}
+
+.coctel-image{
+  height: 300px;
+  widows: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.coctel-name{
+  position: absolute;
+  bottom:-10px;
+  left: 20px;
+}
+
+
+.thumbnail-container{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.thumbnail{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow:hidden;
+  margin: 0 auto;
+}

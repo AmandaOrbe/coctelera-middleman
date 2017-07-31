@@ -1,1 +1,21 @@
-<h1>barmen</h1>
+
+
+<div class="wrapper">
+  <div class="container3 ">
+    <h3>NUESTROS BARMEN</h3>
+    <%data.barmen.each do |barman| %>
+      <div class="barman-card">
+        <%= image_tag barman[1].portrait,  class: "barman-image" %>
+        <div class="margin">
+          <h5><%= barman[1].name.upcase %></h5>
+          <p><%= barman[1].description %> </p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="btn-center">
+    <%= link_to "RESERVA AHORA", "form.html" , class: "btn-banner2 " %>
+    </div>
+  </div>
+</div>
+

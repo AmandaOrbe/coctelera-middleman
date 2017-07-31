@@ -1,0 +1,32 @@
+.barman-card{
+width: 90%;
+margin-top: 60px;
+margin-bottom: 60px;
+border: 1px solid #EBB75A;
+display:flex;
+}
+.barman-image{
+  height: 200px;
+  width: 200px;
+  margin:30px;
+}
+.margin{
+  margin:20px;
+}
+
+@media (max-width: 720px) {
+  .barman-card{
+    display: block;
+    margin : 10px auto;
+    text-align: center;
+   }
+   .barman-image{
+    width:80%;
+    height: auto;
+    margin: 20px auto;
+   }
+   .margin{
+    width:80%;
+    margin:20px auto;
+   }
+}

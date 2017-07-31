@@ -16,7 +16,7 @@ $header-font: 'Righteous', cursive;
 // $my-font: "Font Name";
 
 // Font-size and line-height
-$base-size: 16px;
+$base-size: 14px;
 $base-height: 1.4;
 
 /* -------------------------------------
@@ -71,9 +71,10 @@ h4{
 }
 
 h5{
+  font-family: 'Raleway', "Helvetica", "sans-serif" !important;
   font-weight: 100;
   letter-spacing: 1px;
-  color:black;
+  color:$dark-gold !important;
 }
 
 p {
