@@ -12,10 +12,10 @@
           <div class="form-group form-style">
             <div class="row">
               <div class="col-xs-10 col-sm-5">
-                <input type="text" class="form-control margins" placeholder= "NOMBRE">
+                <input type="text" name="name" class="form-control margins" placeholder= "NOMBRE">
               </div>
               <div class="col-xs-10 col-sm-5">
-                <input type="text" class="form-control margins" placeholder= "APELLIDOS">
+                <input type="text" name="last-name" class="form-control margins" placeholder= "APELLIDOS">
               </div>
             </div>
           </div>
@@ -23,10 +23,10 @@
           <div class="form-group">
             <div class="row">
               <div class="col-xs-10 col-sm-5">
-                <input type="text" class="form-control margins" placeholder= "TELEFONO">
+                <input type="text" name="phone" class="form-control margins" placeholder= "TELEFONO">
               </div>
               <div class="col-xs-10 col-sm-5">
-                <input type="emanil" class="form-control margins" placeholder= "EMAIL">
+                <input type="email" name="email" class="form-control margins" placeholder= "EMAIL">
               </div>
             </div>
           </div>
@@ -34,14 +34,14 @@
           <div class="form-group ">
             <div class="row">
               <div class="col-xs-10 col-sm-5">
-                <select name="" id="" class="form-control margins">
+                <select name="type-event" id="" class="form-control margins">
                   <option value="">Evento</option>
                    <option value="">Barco</option>
                    <option value="">Taller de cócteles</option>
                 </select>
               </div>
               <div class="col-xs-10 col-sm-5">
-                <input type="date" name="bday" class="form-control margins" min="<%Date.today %>"><br>
+                <input type="date" name="date" class="form-control margins" min="<%Date.today %>"><br>
               </div>
             </div>
           </div>
@@ -49,13 +49,19 @@
           <div class="form-group">
             <div class="row">
               <div class="col-xs-10 ">
-                <textarea name="message" id="" cols="30" rows="5" class="form-control margins">¿Alguna Petición especial?</textarea>
+                <textarea name="message" id="" cols="30" rows="5" class="form-control margins" placeholder= "¿Alguna Petición especial?"></textarea>
               </div>
             </div>
           </div>
 
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-10 ">
+                <input type="submit" value="RESERVA AHORA" class="btn-form ">
+              </div>
+             </div>
+           </div>
 
-            <input type="submit" value="RESERVA AHORA" class="btn-form ">
 
 
 
