@@ -1,0 +1,16 @@
+/* line 1, /Users/miriam/code/AmandaOrbe/coctelera-middleman/source/stylesheets/pages/thanks.css.scss */
+.container-thanks {
+  padding-top: 150px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  height: 65vh;
+  position: relative; }
+
+/* line 9, /Users/miriam/code/AmandaOrbe/coctelera-middleman/source/stylesheets/pages/thanks.css.scss */
+.gold {
+  color: #EDB056; }
+
+/* line 14, /Users/miriam/code/AmandaOrbe/coctelera-middleman/source/stylesheets/pages/thanks.css.scss */
+.black {
+  color: black; }
